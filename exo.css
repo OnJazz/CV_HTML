@@ -127,8 +127,8 @@ body {
   overflow: hidden;
 }
 
-.cv .cv_droite ul li {
-  position: relative;
+:not(.cv .cv_droite ul li ul li) {
+  position :relative;
 }
 
 .cv .cv_droite ul li .date {
