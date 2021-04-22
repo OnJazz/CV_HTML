@@ -31,6 +31,18 @@ body {
   display: flex;
   margin: 50px auto;
 }
+.cv .cv_gauche {
+  color: #000000;
+}
+
+.cv .cv_contenu .cv_info_perso ul li div{
+  color: black;
+}
+
+.cv .cv_contenu .cv_info_perso{
+  color: black;
+}
+
 .cv .cv_contenu .cv_competences .bold{
   color: rgb(255, 217, 0) ;
 }
@@ -44,7 +56,7 @@ body {
 }
 
 .cv .cv_gauche {
-  width: 240px;
+  width: 220px;
   background: #65d3fcd3;
 }
 
@@ -91,7 +103,6 @@ body {
 .cv .cv_gauche .cv_competences ul li {
   display: flex;
   margin-bottom: 10px;
-  color: #000000;
   justify-content: space-between;
   align-items: center;
 }
