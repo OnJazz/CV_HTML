@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cv {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+.cv .cv_contenu .cv_competences .bold{
+  color: rgb(255, 217, 0) ;
+}
+
+.cv .cv_contenu .cv_centres_interet .bold{
+  color: rgb(255, 217, 0) ;
+}
+
+.cv .cv_contenu .cv_langues .bold{
+  color: rgb(255, 217, 0) ;
+}
+
+.cv .cv_gauche {
+  width: 240px;
+  background: #65d3fcd3;
+}
+
+.cv .cv_gauche .photo_profil {
+  width: 100%;
+  height: 280px;
+}
+
+.cv .cv_gauche .photo_profil img {
+  width: 100%;
+  height: 100%;
+}
+
+.cv .cv_gauche .cv_contenu {
+  padding: 0 25px;
+}
+
+.cv .title {
+  margin-bottom: 20px;
+}
+
+.cv .cv_gauche .bold {
+  color: #fff;
+}
+
+.cv .cv_gauche .regular {
+  color: #b1eaff;
+}
+
+.cv .cv_gauche ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.cv .cv_gauche ul li:last-child {
+  margin-bottom: 0;
+}
+
+.cv .cv_gauche ul li .data {
+  color: #b1eaff;
+}
+
+.cv .cv_gauche .cv_competences ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #000000;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cv .cv_gauche .cv_competences ul li .competence_groupe {
+  width: 25%;
+}
+
+.cv .cv_droite {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.cv .cv_droite .bold {
+  color: #65d3fcd3;
+}
+
+.cv .cv_droite .cv_diplomes ul,
+.cv .cv_droite .cv_experiences ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.cv .cv_droite ul li {
+  position: relative;
+}
+
+.cv .cv_droite ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.cv .cv_droite ul li .info {
+  margin-bottom: 20px;
+}
+
+.cv .cv_droite ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.cv .cv_droite .cv_diplomes ul li:before,
+.cv .cv_droite .cv_experiences ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.cv .cv_droite .cv_diplomes ul li:after,
+.cv .cv_droite .cv_experiences ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 115px;
+  background: #0bb5f4;
+}
