@@ -1,0 +1,63 @@
+body{
+    background-image: url(img/fond.jpg);
+}
+
+nav{
+     position: fixed;
+     left: 0;
+    top: 25%;
+    width: 8em;
+    margin-top: -2.5em;
+    background-color: lightgreen;
+}
+
+h1{
+    text-align: center;
+    background-color: #577290;
+    color: orange;
+}
+
+h2{
+    text-align: center;
+    background-color: #8d9385;
+    color: #577290;
+    border-radius: 10px;
+}
+
+section:not(section#flexbox){
+    background-color: #787872;
+    margin-left: 340px;
+    margin-right : 340px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 1px;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+section:hover:not(section#flexbox){
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+article:not(section#flexbox article){
+    margin-left: 40px;
+    margin-right : 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+section#flexbox{
+    display: flex;
+    flex-flow: center;
+    flex-wrap: no-wrap;
+    overflow: scroll;
+}
+
+section#flexbox article{
+    margin: 10px;
+    flex-grow: 1;
+}
